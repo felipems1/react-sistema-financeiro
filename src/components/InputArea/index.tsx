@@ -24,6 +24,10 @@ export const InputArea = ({ onAdd }: Props)  => {
             value: valueField,
         };
         onAdd(newItem);
+        setDateField('');
+        setCategoryField('');
+        setTitleField('');
+        setValueField(0);
     }
 
     return (
