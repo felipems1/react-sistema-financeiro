@@ -46,6 +46,15 @@ const App = () => {
     newList.push(item);
     setList(newList);
   }
+
+  const handleRemoveItem = (item: Item) => {
+    let newList = [...list];
+    let index = newList.indexOf(item);
+    if(index > -1) {
+      newList.splice(index, 1);
+    }
+    setList(newList);
+  }
   
   return(
     <C.Container>
@@ -59,8 +68,8 @@ const App = () => {
           income={income}
           expense={expense}
         />
-        <InputArea onAdd={handleAddItem}/>
-        <TableArea list={filteredList} />
+        <InputArea onAdd={handleAddItem} />
+        <TableArea list={filteredList} onRemove={handleRemoveItem}/>
       </C.Body>
     </C.Container>
   );

@@ -16,4 +16,14 @@ export const Category = styled.div<{ color: string }>`
 
 export const Value = styled.div<{ color: string }>`
     color: ${props => props.color};
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+
+    p {
+        font-size: 15px;
+        color: #000;
+        cursor: pointer;
+    }
 `;
