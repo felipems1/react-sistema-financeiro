@@ -9,7 +9,7 @@
 ## 🔖 Layout
 
 <p align="center">
-  <video src="https://user-images.githubusercontent.com/111329429/199332314-f436df30-5410-491e-9532-2c5f45e83402.mp4">
+  <video src="https://user-images.githubusercontent.com/111329429/210662193-990677cd-0c76-4b59-b9e6-f14092211c8f.mp4">
 </p>
 
 ## 🚀 Tecnologias
@@ -23,8 +23,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Calculando ás despesas e receitas, e mostrando o resultado do balanço do mês.
+Você pode visualizar o projeto através [DESSE LINK](https://app-sist-financeiro.netlify.app).
 
 ---
 
-[Link do meu perfil no Linkedin.](https://www.linkedin.com/in/felipe-moises-4a1b58248/) 
+[Link do meu perfil no Linkedin.](https://www.linkedin.com/in/felipe-moises-4a1b58248/)

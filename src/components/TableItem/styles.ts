@@ -1,29 +1,31 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const TableLine = styled.tr``;
+export const TableLine = styled.tr`
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+`;
 
 export const TableColumn = styled.td`
-    padding: 10px 0;
+  padding: 10px 0;
+  width: 120px;
+  text-align: center;
 `;
 
 export const Category = styled.div<{ color: string }>`
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #FFF;
-    background-color: ${props => props.color};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: ${(props) => props.color};
 `;
 
 export const Value = styled.div<{ color: string }>`
-    color: ${props => props.color};
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100px;
-
-    p {
-        font-size: 15px;
-        color: #000;
-        cursor: pointer;
-    }
+  color: ${(props) => props.color};
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

@@ -1,16 +1,27 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Table = styled.table`
-    width: 100%;
-    background-color: #FFF;
-    padding: 20px;
-    box-shadow: 0px 0px 5px #CCC;
-    border-radius: 10px;
-    margin-top: 20px;
+  margin: 20px 5px 0 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
-export const TableHeadColumn = styled.th<{ width?: number }>`
-    width: ${props => props.width ? `${props.width}px` : 'auto'};
-    padding: 10px; 0;
-    text-align: left;
+export const Thead = styled.thead`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export const Tbody = styled.tbody`
+  width: 100%;
+`;
+
+export const TableHeadColumn = styled.th`
+  padding: 10px 0;
+  width: 120px;
 `;
